@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './header.css';
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../../../images/logo.png';
-import { withRouter } from 'react-router'
+import { withRouter } from 'react-router';
 
 class Header extends Component {
   handleClick = () => {
@@ -51,4 +51,4 @@ class Header extends Component {
   }
 }
 
-export default withRouter(Header)
+export default withRouter(Header);
